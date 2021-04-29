@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="uk.ac.aber.dcs.cs31620.vocabular.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_tests"
+        android:name="uk.ac.aber.dcs.cs31620.vocabular.ui.tests.TestsFragment"
+        android:label="@string/title_tests"
+        tools:layout="@layout/fragment_tests" />
+    <fragment
+        android:id="@+id/navigation_dictionary"
+        android:name="uk.ac.aber.dcs.cs31620.vocabular.ui.dictionary.DictionaryFragment"
+        android:label="@string/title_dictionary"
+        tools:layout="@layout/fragment_dictionary"/>
+    <fragment
+        android:id="@+id/navigation_add_dictionary_item"
+        android:name="uk.ac.aber.dcs.cs31620.vocabular.ui.add_dictionary_item.AddDictionaryItemFragment"
+        android:label="@string/title_add_dictionary_item"
+        tools:layout="@layout/fragment_add_dictionary_item" />
+    <fragment
+        android:id="@+id/navigation_startup"
+        android:name="uk.ac.aber.dcs.cs31620.vocabular.ui.startup.DefineLanguagesFragment"
+        android:label="@string/title_define_languages"
+        tools:layout="@layout/fragment_define_languages" />
+    <fragment
+        android:id="@+id/navigation_spelling_test"
+        android:name="uk.ac.aber.dcs.cs31620.vocabular.ui.tests.SpellingTestFragment"
+        android:label="@string/title_spelling_test"
+        tools:layout="@layout/fragment_spelling_test" />
+</navigation>

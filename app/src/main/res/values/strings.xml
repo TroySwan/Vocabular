@@ -1,0 +1,85 @@
+<resources>
+<!--    Titles-->
+    <string name="app_name">vocabular</string>
+    <string name="title_home">Home</string>
+    <string name="title_dictionary">Dictionary</string>
+    <string name="title_statistics">Stats</string>
+    <string name="title_tests">Tests</string>
+    <string name="title_add_dictionary_item">Add Dictionary Item</string>
+    <string name="title_define_languages">Define Languages</string>
+    <string name="title_spelling_test">Spelling Test</string>
+    <!--    StartUp-->
+    <string name="welcome_text">Welcome to Vocabular</string>
+    <string name="new_language_text">The language you want to learn is…</string>
+    <string name="native_language_text">Your native language is…</string>
+    <string name="new_language_hint_text">Learning Language</string>
+    <string name="native_language_hint_text">Native Language</string>
+
+<!--    Dictionary Item-->
+    <string name="word_description">Word in learning language</string>
+    <string name="meaning_description">Meaning in native language</string>
+    <string name="delete_button_description">Delete dictionary entry button</string>
+    <string name="default_word_text">Word</string>
+    <string name="default_meaning_text">Meaning</string>
+
+    <string name="toast_fields_must_be_filled">Both fields must contain values</string>
+
+    <!--    Home Fragment-->
+    <string name="app_name_text">Vocabular</string>
+    <string name="most_recent_word">Most Recent Word:</string>
+    <string name="you_are_language_learning_card_text">You are Learning…</string>
+    <string name="you_are_native_language_card_text">You are native in…</string>
+    <string name="language_learning_card_text">Learning Language</string>
+    <string name="native_language_card_text">Native Language</string>
+
+    <string name="change_languages_image_view_description">Change languages image</string>
+    <string name="change_languages_text">Change Languages</string>
+    <string name="clear_data_warning">This will clear all your data are you sure you want to continue?</string>
+
+    <string name="words_in_dictionary_text">Words in your dictionary:</string>
+    <string name="no_words_in_dictionary_text">No words in dictionary</string>
+    <string name="tests_taken_text">Tests Taken:</string>
+    <string name="default_number_text">0</string>
+    <string name="quick_add_text">Add New Word</string>
+
+<!--    Dictionary Fragment-->
+    <string name="add_dictionary_item_description">Add dictionary item button</string>
+
+    <!--    Tests Fragment-->
+    <string name="spelling_test_card_text">Spelling Test</string>
+    <string name="spelling_test_description_text">A test where you try to spell words in either your language or the one you are learning</string>
+
+    <string name="matching_test_card_text">Matching Test</string>
+    <string name="matching_test_description_text">A test where you try to match words that are translations of each other (not implemented)</string>
+
+    <string name="anagram_test_card_text">Anagram Test</string>
+    <string name="anagram_test_description_text">A test where you try to guess words based on an anagram (not implemented)</string>
+<!--    Taking Tests Fragment-->
+    <string name="type_of_test_text">Type of Test</string>
+    <string name="score_text">Score:</string>
+    <string name="initial_score_text">0</string>
+    <string name="questions_left_text">Questions Left:</string>
+
+
+    <string name="you_scored_text">You Scored:</string>
+
+    <string name="match_pairs_text">Match The Pairs</string>
+
+
+    <string name="spelling_text">How do you spell…</string>
+    <string name="spell_the_word_text">Insert Translation Here</string>
+
+    <string name="anagram_text">What is this an anagram of?</string>
+
+    <string name="submit_answer_text">Submit</string>
+    <string name="end_test_text">End Test</string>
+    <string name="skip_question_text">Skip</string>
+
+<!--    Add Dictionary Item Fragment-->
+<!--   //<string name="add_new_word_description">Add new word text view</string>-->
+    <string name="add_new_word_text">Add a new word to your dictionary</string>
+    <string name="word_in_learning_language">Word in learning language:</string>
+    <string name="meaning_in_native_language">Meaning in native language:</string>
+    <string name="add_dictionary_item_button_description">Add dictionary item button</string>
+
+</resources>
